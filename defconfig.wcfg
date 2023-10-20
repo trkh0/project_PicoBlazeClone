@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/sapi/architektura/xilinx/PicoBlazeClone/testDataMemory_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testdatamemory" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testdatamemory/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/mrd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mrd</obj_property>
+      <obj_property name="ObjectShortName">mrd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/mwr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mwr</obj_property>
+      <obj_property name="ObjectShortName">mwr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/sel_adr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_adr</obj_property>
+      <obj_property name="ObjectShortName">sel_adr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/dataout_x" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout_x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout_x[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/d_mem_adr_dir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_mem_adr_dir[5:0]</obj_property>
+      <obj_property name="ObjectShortName">d_mem_adr_dir[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/d_mem_adr_indir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_mem_adr_indir[5:0]</obj_property>
+      <obj_property name="ObjectShortName">d_mem_adr_indir[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/data_mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testdatamemory/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

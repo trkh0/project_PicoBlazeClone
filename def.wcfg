@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/sapi/architektura/xilinx/PicoBlazeClone/testCPU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testcpu" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="/testcpu/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/intreq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intreq</obj_property>
+      <obj_property name="ObjectShortName">intreq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/data_sw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_sw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_sw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/intackn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">intackn</obj_property>
+      <obj_property name="ObjectShortName">intackn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/segm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">segm[7:0]</obj_property>
+      <obj_property name="ObjectShortName">segm[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/int" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">int</obj_property>
+      <obj_property name="ObjectShortName">int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">portin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portid[7:0]</obj_property>
+      <obj_property name="ObjectShortName">portid[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">portout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/readstrobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">readstrobe</obj_property>
+      <obj_property name="ObjectShortName">readstrobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/writestrobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">writestrobe</obj_property>
+      <obj_property name="ObjectShortName">writestrobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/int_ack" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">int_ack</obj_property>
+      <obj_property name="ObjectShortName">int_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/progmemaddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">progmemaddress[9:0]</obj_property>
+      <obj_property name="ObjectShortName">progmemaddress[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/res" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">res</obj_property>
+      <obj_property name="ObjectShortName">res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/ior" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ior</obj_property>
+      <obj_property name="ObjectShortName">ior</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/iow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iow</obj_property>
+      <obj_property name="ObjectShortName">iow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/memr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memr</obj_property>
+      <obj_property name="ObjectShortName">memr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/memw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memw</obj_property>
+      <obj_property name="ObjectShortName">memw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/rwrw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rwrw</obj_property>
+      <obj_property name="ObjectShortName">rwrw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/cy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cy</obj_property>
+      <obj_property name="ObjectShortName">cy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/enableinterupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enableinterupt</obj_property>
+      <obj_property name="ObjectShortName">enableinterupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/requestinterupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">requestinterupt</obj_property>
+      <obj_property name="ObjectShortName">requestinterupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portidsel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">portidsel</obj_property>
+      <obj_property name="ObjectShortName">portidsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/addrsel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">addrsel</obj_property>
+      <obj_property name="ObjectShortName">addrsel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/execute" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">execute</obj_property>
+      <obj_property name="ObjectShortName">execute</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/read_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/write_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/regaddrx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regaddrx[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regaddrx[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/regaddry" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regaddry[3:0]</obj_property>
+      <obj_property name="ObjectShortName">regaddry[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instrcodeext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrcodeext[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instrcodeext[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/reginx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reginx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reginx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/regoutx" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regoutx[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regoutx[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/regouty" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regouty[15:0]</obj_property>
+      <obj_property name="ObjectShortName">regouty[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/aluresult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluresult[15:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portdatatocpu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portdatatocpu[15:0]</obj_property>
+      <obj_property name="ObjectShortName">portdatatocpu[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/datamemout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datamemout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">datamemout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/dy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dy[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dy[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portdatain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portdatain[15:0]</obj_property>
+      <obj_property name="ObjectShortName">portdatain[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portdataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portdataout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">portdataout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instrcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">instrcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/scrpadaddrdir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scrpadaddrdir[5:0]</obj_property>
+      <obj_property name="ObjectShortName">scrpadaddrdir[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/scrpadaddrindir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scrpadaddrindir[5:0]</obj_property>
+      <obj_property name="ObjectShortName">scrpadaddrindir[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instrphase" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instrphase[2:0]</obj_property>
+      <obj_property name="ObjectShortName">instrphase[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/branchext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">branchext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">branchext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/demuxsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">demuxsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">demuxsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/muxsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">muxsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">muxsel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/kk" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">kk[7:0]</obj_property>
+      <obj_property name="ObjectShortName">kk[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portiddir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portiddir[7:0]</obj_property>
+      <obj_property name="ObjectShortName">portiddir[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/portidindir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">portidindir[7:0]</obj_property>
+      <obj_property name="ObjectShortName">portidindir[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/port_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/branchaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">branchaddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">branchaddr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instraddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instraddress[9:0]</obj_property>
+      <obj_property name="ObjectShortName">instraddress[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testcpu/uut/Inst_PicoBlazeCloneCPU/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[17:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[17:0]</obj_property>
+   </wvobject>
+</wave_config>
